@@ -1,0 +1,24 @@
+ros-kinetic-static-transform-mux (1.1.0-0xenial) xenial; urgency=high
+
+  * Changed the cache key to allow restructuring the TF tree.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Mon, 04 Mar 2019 23:00:00 -0000
+
+ros-kinetic-static-transform-mux (1.0.1-0xenial) xenial; urgency=high
+
+  * Fixed initialization order so that the subscriber is the last and does not trigger the callback before constructor finishes.
+  * Removed dependency on tf package.
+  * Create LICENSE.txt
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Wed, 05 Sep 2018 22:00:00 -0000
+
+ros-kinetic-static-transform-mux (1.0.0-0xenial) xenial; urgency=high
+
+  * Initial commit.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Wed, 29 Aug 2018 22:00:00 -0000
+
+
