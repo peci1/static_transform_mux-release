@@ -1,0 +1,12 @@
+Source: ros-lunar-static-transform-mux
+Section: misc
+Priority: extra
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-static-transform-mux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-rospy, ros-lunar-tf2-msgs
+Description: A helper node that makes sure everybody knows about all static transforms, even if they are published by multiple publishers.
