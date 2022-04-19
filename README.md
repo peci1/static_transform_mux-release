@@ -1,3 +1,26 @@
+## static_transform_mux (noetic) - 1.1.0-1
+
+The packages in the `static_transform_mux` repository were released into the `noetic` distro by running `/usr/bin/bloom-release static_transform_mux -r noetic` on `Tue, 19 Apr 2022 13:38:44 -0000`
+
+The `static_transform_mux` package was released.
+
+Version of package(s) in repository `static_transform_mux`:
+
+- upstream repository: https://github.com/tradr-project/static_transform_mux.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## static_transform_mux (indigo) - 1.1.0-0
 
 The packages in the `static_transform_mux` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release --rosdistro indigo --track indigo static_transform_mux` on `Wed, 06 Mar 2019 00:45:59 -0000`
