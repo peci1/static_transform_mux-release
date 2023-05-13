@@ -2,6 +2,12 @@
 Changelog for package static_transform_mux
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.1 (2023-05-13)
+------------------
+* Noetic compatibility.
+* Added possibility to publish to a different topic.
+* Contributors: Martin Pecka
+
 1.1.0 (2019-03-05)
 ------------------
 * Changed the cache key to allow restructuring the TF tree.
