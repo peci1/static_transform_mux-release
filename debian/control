@@ -1,0 +1,12 @@
+Source: ros-noetic-static-transform-mux
+Section: misc
+Priority: optional
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://www.ros.org/wiki/static_transform_mux
+Standards-Version: 3.9.2
+
+Package: ros-noetic-static-transform-mux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-rospy, ros-noetic-tf2-msgs
+Description: A helper node that makes sure everybody knows about all static transforms, even if they are published by multiple publishers.
